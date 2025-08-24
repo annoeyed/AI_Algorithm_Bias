@@ -38,3 +38,4 @@ var/
 venv.bak/
 venv/
 wheels/
+**/.git
