@@ -1,44 +1,39 @@
-# .gitignore 파일 생성
-echo "# Python
-__pycache__/
-*.py[cod]
 *$py.class
+*.egg
+*.egg-info/
+*.py[cod]
+*.pyc
 *.so
+*.swo
+*.swp
+.DS_Store
 .Python
+.data/
+.eggs/
+.env
+.idea/
+.installed.cfg
+.ipynb_checkpoints
+.ipynb_checkpoints/
+.venv
+.vscode/
+ENV/
+Thumbs.db" > .gitignore.venv/
+__pycache__/
 build/
 develop-eggs/
 dist/
 downloads/
+echo "# Python
 eggs/
-.eggs/
+env.bak/
+env/
 lib/
 lib64/
+outputs/
 parts/
 sdist/
 var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Environment
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
 venv.bak/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db" > .gitignore
+venv/
+wheels/
