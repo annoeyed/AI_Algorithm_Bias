@@ -6,6 +6,7 @@
 *.so
 *.swo
 *.swp
+**/.git
 .DS_Store
 .Python
 .data/
